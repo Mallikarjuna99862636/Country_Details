@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { countryRedux } from '../../redux/countrydata/CountryDataRedux'
 
-
+// hello 
 const CountryDetails = () => {
     const [country, setcountry] = useState(0);
     const location = useLocation()
